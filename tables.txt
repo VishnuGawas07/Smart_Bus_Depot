@@ -1,0 +1,35 @@
+Create this tables in oracleXE
+
+Add the jdbc driver file  which is provided in this project zip 
+this jdbc driver file is for creating connection between project and database
+
+oracle login :
+
+username: system
+password : 123
+
+Create table driver_details(name varchar(60),id varchar(60),aadhar number,
+mob number,address varchar(60),bloodgrp varchar(20),age number,join varchar(60));
+
+Create table conductor_details(name varchar(60),id varchar(60),aadhar number,
+mob number,address varchar(60),bloodgrp varchar(20),age number,join varchar(60));
+
+Create table otherstaff(name varchar(60),occupation varchar(60),id varchar(60),aadhar number,
+mob number,address varchar(60),bloodgrp varchar(20),age number,join varchar(60));
+
+
+create table logdetails(logid number,busno number,did number,
+cid number,source varchar(60),destination varchar(60), arrival varchar(60));
+
+insert into bustiming(busno,source,destination,departure_time,arrival_time
+
+create table bustiming(busno varchar(60),source varchar(60),destination varchar(60),
+departure_time varchar(60),arrival_time varchar(60));
+
+
+create table studentpass(idno number,passno number,name varchar(60),price number,issuedate varchar(60),validupto varchar(60),
+dob varchar(60),age number,source varchar(60),destination varchar(60),address varchar(60),institute varchar(60));
+
+create table touristpass(idno number,passno number,name varchar(60),price number,issuedate varchar(60),validupto varchar(60),
+dob varchar(60),age number,source varchar(60),destination varchar(60),address varchar(60),institute varchar(60));
+
